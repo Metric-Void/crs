@@ -1,0 +1,51 @@
+{
+    "name": "nvidia-tesla-a100",
+    "compute": [
+        {
+            "type": "clpeak",
+            "int": 19279.66,
+            "float": 19356.03,
+            "double": 9721.88,
+            "memory": 1494.62
+        }
+    ],
+    "memory": [
+        {
+            "size": "80GB",
+            "bandwidth": "1935GB/s"
+        }
+    ],
+    "connectivity": [
+        {
+            "type": "PCIe Gen4 x16",
+            "bandwidth": "31.5GB/s"
+        },
+        {
+            "type": "NVLink x12 (single direction)",
+            "bandwidth": "300GB/s"
+        }
+    ],
+    "power": 300,
+    "price": 14999,
+    "dev": {
+        "isa": 1,
+        "document": 0,
+        "toolchain": 2,
+        "rtos": 0,
+        "os": 1,
+        "debug": 2
+    },
+    "flex": {
+        "muldiv": 3,
+        "fpu": 3,
+        "gemm": 3,
+        "crypto": 0,
+        "venc": 0,
+        "vdec": 3,
+        "isp": 0,
+        "vec": 3,
+        "graphics": 0,
+        "adc": 0,
+        "dac": 0
+    }
+}

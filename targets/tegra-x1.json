@@ -1,0 +1,51 @@
+{
+    "name": "tegra-x1",
+    "compute": [
+        {
+            "type": "coremark",
+            "score": 27776.3548
+        },
+        {
+            "type": "clpeak",
+            "int": 72.5,
+            "float": 221.55,
+            "double": 7.36,
+            "memory": 17.45
+        }
+    ],
+    "memory": [
+        {
+            "size": "4GB",
+            "bandwidth": "25.6Gbps"
+        }
+    ],
+    "connectivity": [
+        {
+            "type": "USB 3.0",
+            "bandwidth": "5Gbps"
+        }
+    ],
+    "power": 5,
+    "price": 99.0,
+    "dev": {
+        "isa": 1,
+        "document": 1,
+        "toolchain": 2,
+        "rtos": 2,
+        "os": 1,
+        "debug": 2
+    },
+    "flex": {
+        "muldiv": 3,
+        "fpu": 3,
+        "gemm": 3,
+        "crypto": 3,
+        "venc": 3,
+        "vdec": 3,
+        "isp": 3,
+        "vec": 0,
+        "graphics": 3,
+        "adc": 1,
+        "dac": 1
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "name": "nvidia-rtx-3090",
+    "compute": [
+        {
+            "type": "clpeak",
+            "int": 17411.94,
+            "float": 34505.80,
+            "double": 635.74,
+            "memory": 812.86
+        }
+    ],
+    "memory": [
+        {
+            "size": "24GB",
+            "bandwidth": "936.2GB/s"
+        }
+    ],
+    "connectivity": [
+        {
+            "type": "PCIe Gen4 x16",
+            "bandwidth": "31.5GB/s"
+        },
+        {
+            "type": "NVLink x4 (single direction)",
+            "bandwidth": "56.25GB/s"
+        }
+    ],
+    "power": 350,
+    "price": 1499,
+    "dev": {
+        "isa": 1,
+        "document": 0,
+        "toolchain": 2,
+        "rtos": 0,
+        "os": 1,
+        "debug": 2
+    },
+    "flex": {
+        "muldiv": 3,
+        "fpu": 3,
+        "gemm": 3,
+        "crypto": 0,
+        "venc": 0,
+        "vdec": 3,
+        "isp": 0,
+        "vec": 3,
+        "graphics": 0,
+        "adc": 0,
+        "dac": 0
+    }
+}
